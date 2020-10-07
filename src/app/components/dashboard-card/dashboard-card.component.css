@@ -1,0 +1,30 @@
+.card {
+    width: calc(25% - 1rem);
+    margin: 1rem .5rem;
+    height: auto;
+    padding: 1.3rem;
+    display: grid;
+    align-content: center;
+}
+.card-name {
+    font-size: 19px;
+    color: var(--text);
+    margin-bottom: 1.7rem;
+}
+.card-value {
+    font-size: 50px;
+    color: var(--heading);
+    font-weight: 500;
+}
+.card-value.active {
+    color: var(--blue);
+}
+.card-value.confirmed {
+    color: var(--green);
+}
+.card-value.recovered {
+    color: var(--yellow);
+}
+.card-value.deaths {
+    color: var(--red);
+}

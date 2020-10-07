@@ -1,0 +1,38 @@
+:root {
+    --text: rgb(107, 116, 117);
+    --paragraph: rgb(158, 167, 168);
+    --heading: rgb(1, 55, 71);
+    --white: #fff;
+    --red: rgb(207, 56, 68);
+    --blue: rgb(21, 123, 207);
+    --green: rgb(91, 214, 91);
+    --yellow: rgb(246, 194, 20);
+    --light-bg: rgba(183, 209, 216, 0.5);
+    --very-light-bg: rgba(183, 228, 241, 0.274);
+    --dark-bg: rgba(169, 173, 173, 0.164);
+    --border-radius: 10px;
+    --circle: 50%;
+    --rounded-button: 50px; 
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* global designs */
+button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}

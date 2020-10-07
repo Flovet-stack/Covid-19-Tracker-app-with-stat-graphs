@@ -1,0 +1,19 @@
+.sec-1 {
+    text-align: center;
+    color: var(--text);
+}
+.sec-1 h1 {
+    color: var(--heading);
+    font-size: 40px;
+}
+.sec-1 p {
+    font-size: 18px;
+    padding: 1rem 0;
+}
+.sec-1 hr {
+    height: 1px;
+    border: none;
+    background-color: var(--light-bg);
+    width: 70%;
+    margin: 0 auto;
+}

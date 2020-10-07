@@ -1,0 +1,35 @@
+nav {
+    width: 100vw;
+    height: auto;
+    padding: 1rem 0;
+    /* background-color: red; */
+}
+nav .container {
+    display: flex;
+}
+.logo {
+    display: grid;
+    align-content: center;
+    font-size: 27px;
+    color: var(--blue);
+    font-weight: 500;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 1rem 1rem;
+    color: var(--text);
+    font-size: 18px;
+    border-radius: var(--border-radius);
+    transition-duration: .3s;
+}
+nav ul li a:hover {
+    color: var(--blue);
+    transition-duration: .3s;
+}
+nav ul li a.active {
+    color: var(--blue);
+    background-color: var(--dark-bg);
+}
